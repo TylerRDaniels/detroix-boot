@@ -1,0 +1,205 @@
+.top-link {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.inner-1 {
+  background-color: #131d29;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.inner-2 {
+  background-color: #f4f4f6;
+}
+
+main .inner {
+  background-color: #f4f4f6;
+}
+
+.block-1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .block-1 { 
+        margin-top: 10px;
+    }
+}
+
+body {
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+      font-size: 1.5vw;
+    }
+  }
+
+@media screen and (max-width: 720px) {
+   body {
+     font-size: 3vw;
+   }
+}
+ 
+@media screen and (max-width: 420px) {
+   body {
+     font-size: 4vw;
+   }
+}
+
+.size {
+    font-size: 1vw;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 720px) {
+  .size {
+    font-size: 3vw;
+    margin-left: 0px;
+  }
+}
+
+
+@media (max-width: 762px) {
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .main-nav-item {
+    margin-bottom: 4px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .top-link-div {
+    text-align: center;
+  }
+
+  .top-nav-1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .services h2 {
+    text-align: center;
+  }
+
+  .opportunities h2 {
+    text-align: center;
+  }
+
+  .news h2 {
+    text-align: center;
+  }
+
+}
+
+footer .inner {
+background-image: radial-gradient(at top, #325376, #121c29, #121c29);
+}
+
+.services {
+  color: white;
+}
+
+.services a {
+  color: white;
+}
+
+.service-list {
+  padding-left: 18px;
+}
+
+
+.service-list-item {
+  list-style-image: url('../media/cog.png');
+}
+
+.opportunities {
+  color: white;
+}
+
+
+.opportunities a {
+  color: white;
+}
+
+.opportunties-list {
+  padding-left: 18px;
+}
+
+.opp-list-item {
+  list-style-image: url('../media/chat.png');
+}
+
+
+.news {
+  color: white;
+}
+
+.news ul li a {
+  color: white;
+}
+
+.news ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.news-div {
+  margin-bottom: 10px;
+}
+
+.footer .date-div1 {
+  flex-basis: 60%;
+  border: solid #be863c;
+  background-color: #be863c;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.footer .date-div2 {
+  flex-basis: 60%;
+  border: solid #b6644c;
+  background-color: #b6644c;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.footer .date-div3 {
+  flex-basis: 60%;
+  border: solid #b54462;
+  background-color: #b54462;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.colophon {
+  background-color: #131d29;
+}
+
+.colophon-text {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+}
